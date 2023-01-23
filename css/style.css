@@ -53,3 +53,11 @@ h1{
 #image{
   height: 40px;
 }
+.text{
+  vertical-align: text-top;
+ color:aliceblue;
+  justify-content: center;
+  display: flex;
+  position:sticky;
+  top:0;
+}
