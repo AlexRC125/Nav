@@ -54,11 +54,9 @@ h1{
   height: 40px;
 }
 .text{
-  vertical-align: text-top;
  color:aliceblue;
   justify-content: center;
-  display: flex;
-  position:sticky;
+  text-align: center;
   top:0;
   
 }
