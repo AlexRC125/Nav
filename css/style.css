@@ -56,18 +56,42 @@ h1{
 .text{
  color:aliceblue;
   justify-content: center;
+  text-align: center right;
+}
+.text1 {
+  color:aliceblue;
+  justify-content: center top;
   text-align: center;
 }
 .image {
 width: 100%;
-
 }
-h2 {
-  color: aliceblue;
+.border {
+  white-space: nowrap;  
+  border: 2px solid white;
+  overflow: hidden;
+  text-overflow: clip;
   position: absolute;
-  top: 12%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-
-
+  text-align: center;
+top:20%;
+left:20%
+}
+.border2 {
+  white-space: nowrap; 
+  border: 1px solid white;
+  overflow: hidden;
+  text-overflow: clip;
+  position: absolute;
+  text-align: center;
+  left:20%
+}
+.border3{
+  white-space: nowrap; 
+  border: 1px solid white;
+  overflow: hidden;
+  text-overflow: clip;
+  position: absolute;
+  text-align: center;
+  right:20%;
+  top: 40%;
 }
